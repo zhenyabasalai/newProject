@@ -15,7 +15,7 @@ public class User implements Cloneable {
     @Override
     public User clone() throws CloneNotSupportedException {
         User clone = (User) super.clone();
-        clone.id = (String)this.getId();
+        clone.id = this.getId();
         clone.setId(id);
         return clone;
     }

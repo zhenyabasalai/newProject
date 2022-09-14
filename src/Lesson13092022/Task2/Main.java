@@ -30,6 +30,5 @@ public class Main {
         if (a == 2) {
 
         }
-
     }
 }
