@@ -6,8 +6,8 @@ import java.util.Objects;
 public class Person {
     public static void main(String[] args) {
 
-        Person person_1 = new Person("Alex", "WilsoN");
-        Person person_2 = new Person("Alex", "Wilson");
+        Person person_1 = new Person("Alex", "Wilson");
+        Person person_2 = new Person("Alex", "WilsoN");
 
         System.out.println(person_1.equals(person_2));
 
